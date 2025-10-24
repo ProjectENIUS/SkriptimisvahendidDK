@@ -1,0 +1,45 @@
+NGINXI LOGIDE ANALÜÜS - Fri Oct 24 08:06:30 AM UTC 2025
+=================================
+
+--- AKTIIVSED NGINXI PROTSESSID ---
+root       12202  0.0  0.0  11156  1716 ?        Ss   07:57   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data   12203  0.0  0.0  12936  4420 ?        S    07:57   0:00 nginx: worker process
+www-data   12204  0.0  0.0  12936  4308 ?        S    07:57   0:00 nginx: worker process
+www-data   12205  0.0  0.0  12936  4548 ?        S    07:57   0:00 nginx: worker process
+www-data   12206  0.0  0.0  12936  4944 ?        S    07:57   0:00 nginx: worker process
+donatka+   14684  0.0  0.0   9940  3520 pts/3    S+   08:06   0:00 bash nginx-log.sh
+
+--- LEITUD 404 VEAD (access.log) ---
+127.0.0.1 - - [23/Oct/2025:06:18:07 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 134 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:22:26 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:22:37 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 134 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:28:20 +0000] "GET /favicon.ico HTTP/1.1" 404 134 "http://localhost:8080/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:45:57 +0000] "GET /petsweb HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:46:07 +0000] "GET /petsweb/petsweb HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:46:18 +0000] "GET /petsweb HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:46:33 +0000] "GET /petsweb/petsweb HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:47:08 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:47:40 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:47:43 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:47:43 +0000] "GET /favicon.ico HTTP/1.1" 404 134 "https://localhost/minuleht" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:47:52 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:48:30 +0000] "GET /petsweb HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:50:03 +0000] "GET /petsweb:8080 HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:50:39 +0000] "GET /8080 HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:52:30 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:06:53:12 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:07:01:19 +0000] "GET /minuleht HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:07:03:03 +0000] "GET /petsweb/ HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:07:03:04 +0000] "GET /petsweb/ HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:07:03:21 +0000] "GET /petsweb/ HTTP/1.1" 404 134 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:07:41:44 +0000] "GET /admin HTTP/1.1" 404 230 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+127.0.0.1 - - [23/Oct/2025:07:47:26 +0000] "GET /favicon.ico HTTP/1.1" 404 230 "http://localhost/admin/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0"
+
+--- 404 VIGADE KOGUARV ---
+404 vigade arv: 24
+
+--- KRIITILISED VEAD (error.log) ---
+Kriitilisi vigu ei leitud
+
+--- ANALÜÜSI LÕPP ---
+Aruanne loodud: Fri Oct 24 08:06:30 AM UTC 2025
